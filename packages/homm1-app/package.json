@@ -1,0 +1,10 @@
+{
+  "name": "@heroesjs/homm1-app",
+  "license": "MIT",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "clean": "rimraf dist"
+  }
+}
