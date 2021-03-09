@@ -1,0 +1,9 @@
+{
+  "name": "@heroesjs/homm1-components",
+  "license": "MIT",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rimraf dist"
+  }
+}

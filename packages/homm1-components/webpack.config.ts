@@ -1,8 +1,7 @@
-import HtmlWebpackPlugin from "html-webpack-plugin";
 import Webpack from "webpack";
 
 const config: Webpack.Configuration = {
-  entry: "./src/index.tsx",
+  entry: "./src/index.ts",
   mode: "development",
   module: {
     rules: [
@@ -16,11 +15,6 @@ const config: Webpack.Configuration = {
       },
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "src/index.html",
-    }),
-  ],
   resolve: {
     extensions: [
       ".tsx",
