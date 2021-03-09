@@ -11,6 +11,8 @@
     "@babel/core": "^7.13.8",
     "@babel/preset-react": "^7.12.13",
     "@babel/preset-typescript": "^7.13.0",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/react": "^6.1.21",
     "@types/react": "^17.0.3",
     "@types/styled-components": "^5.1.7",
     "@types/webpack": "^4.41.26",

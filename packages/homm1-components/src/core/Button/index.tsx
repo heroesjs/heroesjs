@@ -16,7 +16,7 @@ export interface ButtonProps {
 
 export function Button(props: ButtonProps) {
   return (
-    <StyledButton
+    <Root
       type="button"
       disabled={props.disabled}
       onMouseEnter={props.onMouseEnter}
@@ -31,11 +31,11 @@ export function Button(props: ButtonProps) {
         className="disabled"
         src={props.assets.disabled}
       />
-    </StyledButton>
+    </Root>
   );
 }
 
-const StyledButton = styled.button`
+const Root = styled.button`
   font-size: 0;
   background: none;
   border: none;

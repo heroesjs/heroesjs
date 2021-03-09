@@ -1,8 +1,15 @@
+import React from "react";
 import styled from "styled-components";
 
 import { background } from "./assets";
 
-export const Menu = styled.div`
+export function Menu(props: React.PropsWithChildren<{}>) {
+  return (
+    <MenuRoot {...props} />
+  );
+}
+
+const MenuRoot = styled.div`
   box-sizing: border-box;
   width: 194px;
   height: 410px;
@@ -10,7 +17,13 @@ export const Menu = styled.div`
   padding: 33px;
 `;
 
-export const MenuItem = styled.div`
+export function MenuItem(props: React.PropsWithChildren<{}>) {
+  return (
+    <MenuItemRoot {...props} />
+  );
+}
+
+const MenuItemRoot = styled.div`
   width: 127px;
   height: 63px;
   margin-bottom: 7px;
