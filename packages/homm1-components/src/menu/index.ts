@@ -1,3 +1,4 @@
+export * from "./BaudMenu";
 export * from "./CampaignMenu";
 export * from "./ComPortMenu";
 export * from "./GameTypeMenu";
