@@ -1,11 +1,16 @@
 import React from "react";
 
-import { MainMenu, MainWindow } from "@heroesjs/homm1-components";
+import { AdventureButtons, AdventureWindow, MainMenu, MainWindow } from "@heroesjs/homm1-components";
 
 export function App() {
   return (
-    <MainWindow>
-      <MainMenu />
-    </MainWindow>
+    <>
+      <MainWindow>
+        <MainMenu />
+      </MainWindow>
+      <AdventureWindow
+        renderStatus={() => <AdventureButtons />}
+      />
+    </>
   );
 }

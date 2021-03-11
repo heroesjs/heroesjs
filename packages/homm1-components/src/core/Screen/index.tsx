@@ -11,7 +11,10 @@ export function Screen(props: React.PropsWithChildren<ScreenProps>) {
   );
 }
 
+export const screenWidth = 640;
+export const screenHeight = 480;
+
 const Root = styled.div`
-  width: 640px;
-  height: 480px;
+  width: ${screenWidth}px;
+  height: ${screenHeight}px;
 `;
