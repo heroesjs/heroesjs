@@ -7,6 +7,7 @@ export const parameters = {
       order: [
         "Core",
         "Menu",
+        "Main",
         "Adventure",
       ],
     },
