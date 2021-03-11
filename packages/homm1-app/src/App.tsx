@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AdventureButtons, AdventureWindow, MainMenu, MainWindow } from "@heroesjs/homm1-components";
+import { AdventureButtons, AdventureWindow, MainMenu, MainWindow, StatusWindow } from "@heroesjs/homm1-components";
 
 export function App() {
   return (
@@ -9,8 +9,17 @@ export function App() {
         <MainMenu />
       </MainWindow>
       <AdventureWindow
-        renderStatus={() => <AdventureButtons />}
+        renderStatus={renderStatus}
       />
     </>
   );
+}
+
+function renderStatus() {
+  return (
+    <>
+      <AdventureButtons />
+      <StatusWindow />
+    </>
+  )
 }
