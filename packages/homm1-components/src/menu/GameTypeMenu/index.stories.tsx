@@ -5,7 +5,7 @@ import { GameTypeMenu, GameTypeMenuProps } from "./index";
 
 export default {
   component: GameTypeMenu,
-  title: "Menu/GameTypeMenu",
+  title: `Menu/${GameTypeMenu.name}`,
 };
 
 export const Default: Story<GameTypeMenuProps> = (args) => (

@@ -5,7 +5,7 @@ import { PlayerCountMenu, PlayerCountMenuProps } from "./index";
 
 export default {
   component: PlayerCountMenu,
-  title: "Menu/PlayerCountMenu",
+  title: `Menu/${PlayerCountMenu.name}`,
 };
 
 export const Default: Story<PlayerCountMenuProps> = (args) => (

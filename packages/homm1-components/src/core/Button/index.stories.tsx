@@ -14,7 +14,7 @@ export default {
     },
   },
   component: Button,
-  title: "Core/Button",
+  title: `Core/${Button.name}`,
 } as Meta<ButtonProps>;
 
 export const Default: Story<ButtonProps> = (args) => (

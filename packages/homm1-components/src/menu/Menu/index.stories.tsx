@@ -25,7 +25,7 @@ export default {
   subcomponents: {
     MenuItem,
   },
-  title: "Menu/Menu",
+  title: `Menu/${Menu.name}`,
 } as Meta<StoryArgs>;
 
 const Template: Story<StoryArgs> = (args) => (

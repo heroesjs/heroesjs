@@ -5,7 +5,7 @@ import { HostGuestMenu, HostGuestMenuProps } from "./index";
 
 export default {
   component: HostGuestMenu,
-  title: "Menu/HostGuestMenu"
+  title: `Menu/${HostGuestMenu.name}`,
 };
 
 export const Default: Story<HostGuestMenuProps> = (args) => (

@@ -5,7 +5,7 @@ import { CampaignMenu, CampaignMenuProps } from "./index";
 
 export default {
   component: CampaignMenu,
-  title: "Menu/CampaignMenu"
+  title: `Menu/${CampaignMenu.name}`,
 };
 
 export const Default: Story<CampaignMenuProps> = (args) => (

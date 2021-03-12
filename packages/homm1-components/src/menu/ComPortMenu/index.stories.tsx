@@ -5,7 +5,7 @@ import { ComPortMenu, ComPortMenuProps } from "./index";
 
 export default {
   component: ComPortMenu,
-  title: "Menu/ComPortMenu",
+  title: `Menu/${ComPortMenu.name}`,
 };
 
 export const Default: Story<ComPortMenuProps> = (args) => (

@@ -34,7 +34,18 @@
       }
     },
     "no-submodule-imports": true,
-    "semicolon": true,
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "esSpecCompliant": true,
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
     "variable-name": [
       true,
       "ban-keywords",

@@ -5,7 +5,7 @@ import { MultiPlayerGameMenu, MultiPlayerGameMenuProps } from "./index";
 
 export default {
   component: MultiPlayerGameMenu,
-  title: "Menu/MultiPlayerGameMenu"
+  title: `Menu/${MultiPlayerGameMenu.name}`,
 };
 
 export const Default: Story<MultiPlayerGameMenuProps> = (args) => (

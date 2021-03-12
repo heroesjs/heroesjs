@@ -5,7 +5,7 @@ import { MainMenu, MainMenuProps } from "./index";
 
 export default {
   component: MainMenu,
-  title: "Menu/MainMenu",
+  title: `Menu/${MainMenu.name}`,
 };
 
 export const Default: Story<MainMenuProps> = (args) => (

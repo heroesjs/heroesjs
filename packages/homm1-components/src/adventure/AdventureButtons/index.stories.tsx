@@ -5,7 +5,7 @@ import { AdventureButtons, AdventureButtonsProps } from "./index";
 
 export default {
   component: AdventureButtons,
-  title: "Adventure/AdventureButtons",
+  title: `Adventure/${AdventureButtons.name}`,
 };
 
 export const Default: Story<AdventureButtonsProps> = (args) => (
