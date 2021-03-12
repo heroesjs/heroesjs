@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "@heroesjs/homm1-components";
 
 import { Menu, MenuItem } from "../Menu";
-import { cancel, baud19200, baud2400, baud38400, baud9600 } from "./assets";
+import { baud19200, baud2400, baud38400, baud9600, cancel } from "./assets";
 
 export interface BaudMenuProps {
   readonly on2400BaudClick?: () => void;

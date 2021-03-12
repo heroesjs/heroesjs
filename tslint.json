@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "rules": {
+    // tslint
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "no-implicit-dependencies": false,
+    "no-object-literal-type-assertion": false,
+    "ordered-imports": {
+      "options": {
+        "grouped-imports": true,
+        "groups": [
+          {
+            "name": "Project imports",
+            "match": "^@heroesjs/",
+            "order": 20
+          },
+          {
+            "name": "Relative imports",
+            "match": "^\\.",
+            "order": 30
+          },
+          {
+            "name": "External imports",
+            "match": ".*",
+            "order": 10
+          }
+        ]
+      }
+    },
+    "no-submodule-imports": true,
+    "semicolon": true,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ]
+  }
+}

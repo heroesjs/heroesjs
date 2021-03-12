@@ -1,4 +1,4 @@
-import { Meta } from "@storybook/react"
+import { Meta, Story } from "@storybook/react";
 import React from "react";
 
 import { assets } from "./assets";
@@ -17,6 +17,6 @@ export default {
   title: "Core/Button",
 } as Meta<ButtonProps>;
 
-export const Default = (args) => (
+export const Default: Story<ButtonProps> = (args) => (
   <Button {...args} />
 );

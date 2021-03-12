@@ -5,6 +5,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "lint": "tslint -p ."
   }
 }

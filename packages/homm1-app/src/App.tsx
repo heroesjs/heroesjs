@@ -21,5 +21,5 @@ function renderStatus() {
       <AdventureButtons />
       <StatusWindow />
     </>
-  )
+  );
 }

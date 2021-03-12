@@ -11,7 +11,7 @@ interface StoryArgs {
 
 export default {
   args: {
-    items: []
+    items: [],
   },
   argTypes: {
     items: {

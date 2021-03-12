@@ -5,6 +5,7 @@
   "scripts": {
     "build": "webpack",
     "clean": "rimraf dist",
+    "lint": "tslint -p .",
     "storybook": "start-storybook -c storybook"
   }
 }

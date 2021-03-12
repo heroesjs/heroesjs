@@ -1,6 +1,29 @@
 {
   "compilerOptions": {
+    // Project Options
+    "module": "commonjs",
+    "jsx": "react",
+    "lib": [
+      "dom"
+    ],
+    "target": "es6",
+
+    // Strict Checks
+    "strict": true,
+
+    // Module Resolution
     "esModuleInterop": true,
-    "jsx": "react"
+    "moduleResolution": "node",
+
+    // Linter Checks
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Advanced
+    "forceConsistentCasingInFileNames": true
   }
 }

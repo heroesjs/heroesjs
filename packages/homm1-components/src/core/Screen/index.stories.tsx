@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Placeholder } from "../Placeholder";
-
 import { Screen } from "./index";
 
 export default {
