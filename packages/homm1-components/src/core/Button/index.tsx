@@ -7,6 +7,7 @@ export interface ButtonAssets {
 }
 
 export interface ButtonProps {
+  readonly className?: string;
   readonly assets: ButtonAssets;
   readonly disabled?: boolean;
   readonly onMouseEnter?: () => void;
@@ -17,6 +18,7 @@ export interface ButtonProps {
 export function Button(props: ButtonProps) {
   return (
     <Root
+      className={props.className}
       type="button"
       disabled={props.disabled}
       onMouseEnter={props.onMouseEnter}

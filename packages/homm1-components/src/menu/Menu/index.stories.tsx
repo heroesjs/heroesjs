@@ -15,7 +15,7 @@ export default {
   },
   argTypes: {
     items: {
-      control: true,
+      control: false,
       table: {
         disable: true,
       },

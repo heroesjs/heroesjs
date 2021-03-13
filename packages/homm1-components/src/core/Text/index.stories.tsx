@@ -12,6 +12,16 @@ export default {
     content: "Content",
     size: "medium",
   },
+  argTypes: {
+    className: {
+      control: false,
+    },
+    content: {
+      table: {
+        disable: true,
+      },
+    },
+  },
   component: Text,
   parameters: {
     backgrounds: {

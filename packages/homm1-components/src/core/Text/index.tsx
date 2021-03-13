@@ -8,6 +8,7 @@ export type TextSize =
   | "large";
 
 export interface TextProps {
+  readonly className?: string;
   readonly size: TextSize;
   readonly active?: boolean;
 }
