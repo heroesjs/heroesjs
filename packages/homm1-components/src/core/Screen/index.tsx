@@ -15,6 +15,7 @@ export const screenWidth = 640;
 export const screenHeight = 480;
 
 const Root = styled.div`
+  position: relative;
   width: ${screenWidth}px;
   height: ${screenHeight}px;
 `;
