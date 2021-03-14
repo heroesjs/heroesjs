@@ -13,9 +13,6 @@ export default {
     size: "medium",
   },
   argTypes: {
-    className: {
-      control: false,
-    },
     content: {
       table: {
         disable: true,

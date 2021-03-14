@@ -2,6 +2,11 @@ export const parameters = {
   actions: {
     argTypesRegex: "^on.+",
   },
+  argTypes: {
+    className: {
+      control: false,
+    },
+  },
   controls: {
     hideNoControlsWarning: true,
   },
@@ -9,6 +14,7 @@ export const parameters = {
     storySort: {
       order: [
         "Core",
+        "Base",
         "Menu",
         "Main",
         "Adventure",

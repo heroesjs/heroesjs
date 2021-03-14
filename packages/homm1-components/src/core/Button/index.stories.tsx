@@ -12,9 +12,6 @@ export default {
     assets: {
       control: false,
     },
-    className: {
-      control: false,
-    },
   },
   component: Button,
   title: `Core/${Button.name}`,
