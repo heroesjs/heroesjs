@@ -6,10 +6,7 @@ import { Menu, MenuItem } from "../Menu";
 import { cancel, com1, com2, com3, com4 } from "./assets";
 
 export interface ComPortMenuProps {
-  readonly onCom1Click?: () => void;
-  readonly onCom2Click?: () => void;
-  readonly onCom3Click?: () => void;
-  readonly onCom4Click?: () => void;
+  readonly onOptionClick?: (value: number) => void;
   readonly onCancelClick?: () => void;
 }
 
@@ -19,25 +16,25 @@ export function ComPortMenu(props: ComPortMenuProps) {
       <MenuItem>
         <Button
           assets={com1}
-          onClick={props.onCom1Click}
+          onClick={() => props.onOptionClick?.(1)}
         />
       </MenuItem>
       <MenuItem>
         <Button
           assets={com2}
-          onClick={props.onCom2Click}
+          onClick={() => props.onOptionClick?.(2)}
         />
       </MenuItem>
       <MenuItem>
         <Button
           assets={com3}
-          onClick={props.onCom3Click}
+          onClick={() => props.onOptionClick?.(3)}
         />
       </MenuItem>
       <MenuItem>
         <Button
           assets={com4}
-          onClick={props.onCom4Click}
+          onClick={() => props.onOptionClick?.(4)}
         />
       </MenuItem>
       <MenuItem>

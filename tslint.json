@@ -52,6 +52,9 @@
       "check-format",
       "allow-leading-underscore",
       "allow-pascal-case"
-    ]
+    ],
+
+    // tslint-react
+    "jsx-no-lambda": false
   }
 }
