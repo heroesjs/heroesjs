@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button } from "@heroesjs/homm1-components";
 
-import { Menu, MenuItem } from "../Menu";
+import { Menu, MenuItem } from "../../base";
 import { cancel, com1, com2, com3, com4 } from "./assets";
 
 export interface ComPortMenuProps {

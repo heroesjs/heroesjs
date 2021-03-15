@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button } from "@heroesjs/homm1-components";
 
-import { Menu, MenuItem } from "../Menu";
+import { Menu, MenuItem } from "../../base";
 import { campaignGame, cancel, multiPlayerGame, standardGame } from "./assets";
 
 export interface GameTypeMenuProps {

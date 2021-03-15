@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button } from "@heroesjs/homm1-components";
 
-import { Menu, MenuItem } from "../Menu";
+import { Menu, MenuItem } from "../../base";
 import { baud19200, baud2400, baud38400, baud9600, cancel } from "./assets";
 
 export interface BaudMenuProps {
